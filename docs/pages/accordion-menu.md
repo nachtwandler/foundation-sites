@@ -12,7 +12,7 @@ Accordion menus follow the basic [Menu](menu.html) syntax of `<ul>`, `<li>`, and
 Any `<a>` will behave like a standard link. However, any `<a>` paired with a nested `<ul>` menu will then slide that sub-menu up and down when clicked on.
 
 <div class="primary callout">
-  <p>You can use the build-in <code>.nested</code> class to add an indent to a nested menu.</p>
+  <p>You can use the built-in <code>.nested</code> class to add an indent to a nested menu.</p>
 </div>
 
 <div class="primary callout">
@@ -23,7 +23,7 @@ Any `<a>` will behave like a standard link. However, any `<a>` paired with a nes
 <ul class="vertical menu" data-accordion-menu>
   <li>
     <a href="#">Item 1</a>
-    <ul class="menu veritcal nested">
+    <ul class="menu vertical nested">
       <li><a href="#">Item 1A</a></li>
       <li><a href="#">Item 1B</a></li>
     </ul>
